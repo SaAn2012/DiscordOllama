@@ -1,6 +1,7 @@
 import json
 import os
 import ollama
+import Main
 
 def initialize_chat_history():
     if not os.path.exists("chat.txt") or os.path.getsize("chat.txt") == 0:
