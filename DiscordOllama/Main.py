@@ -4,6 +4,7 @@ from Reply import ReplyIt
 from discord.ext import commands
 
 BOT_TOKEN = ""
+MODEL = ""
 
 intents = discord.Intents.default()
 intents.messages = True
