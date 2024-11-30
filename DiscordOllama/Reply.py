@@ -24,7 +24,7 @@ def ReplyIt(question):
     history.append(prompt)
     with open("chat.txt", "w") as chat_history:
         json.dump(history, chat_history)
-    response = ollama.chat(model="llama3.2:3b", messages=history)
+    response = ollama.chat(model=Main.MODEL, messages=history)
     answer = response['message']['content']
     history.append(response['message'])
     with open("chat.txt", "w") as chat_history:
