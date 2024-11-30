@@ -1,4 +1,4 @@
 # DiscordOllama
 
-Discord ai bot which runs locally on you machine using ollama!
+Discord AI bot which runs locally on you machine using ollama!
 
